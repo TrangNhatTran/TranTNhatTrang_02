@@ -9,7 +9,7 @@ namespace TranTNhatTrang_02.Models
     public class SanPham
     {
         [Key]
-        public int MaSanPham { get; set; }
+        public string MaSanPham { get; set; }
         public string TenSanPham { get; set; }
         public string TenNhaCungCap { get; set; }
     }
